@@ -2215,9 +2215,9 @@ select {
 
 #scrollUp {
     background: #393939 none repeat scroll 0 0;
-    bottom: 60px;
+    bottom: 5%;
     height: 35px;
-    right: 15px;
+    left: 5%;
     text-align: center;
     width: 30px;
 }
@@ -2236,6 +2236,26 @@ select {
 /*
 [ 8. Whatsapp ]
 ======================*/
+.whatsapp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.img-wsp {
+    transition: all 200ms ease;
+}
+.img-wsp:hover {
+    transform:scale(1.20);
+}
+.whatsapp i {
+    color: #25D366;
+}
+#tooltip {
+    display: none;
+}
+#tooltip p {
+    color:white;
+}
 
 /*====================================================================
 							[ END ]
