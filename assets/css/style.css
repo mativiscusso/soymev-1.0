@@ -920,6 +920,12 @@ nav ul a {
     }
 }
 
+@media only screen and (min-width: 998px) {
+    .expand-menu-open {
+        display:none;
+    }
+}
+
 @media only screen and (max-width: 749px) {
     .container {
         width: 100%;
@@ -1860,7 +1866,7 @@ select {
 /* Dark version [Dark]
 ------------------- */
 .dark-version .header-top.is-sticky {
-    background: #111111 none repeat scroll 0 0;
+    background: #111111e1 none repeat scroll 0 0;
 }
 
 .dark-version .mainmenu li a,
